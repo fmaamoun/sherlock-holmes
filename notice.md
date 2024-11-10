@@ -53,7 +53,7 @@ Sur la scène du crime, vous avez trouvé une liste d'objets présents. Ces indi
 
 ### Contexte
 
-Vous avez découvert qu'une archive secrète pourrait contenir des informations cruciales. Il est temps de l'extraire pour accéder à de nouveaux indices.
+Vous avez découvert grâce aux indices précédents qu'une archive secrète pourrait contenir des informations cruciales. Il est temps de l'extraire pour accéder à de nouveaux indices.
 
 ### Objectif
 
@@ -77,14 +77,6 @@ Parmi les fichiers extraits, vous trouvez un message codé. Ce message contient 
 
 - Décoder le message secret pour découvrir le nom du coupable.
 
-### Action à Réaliser
-
-1. Utilisez le tableau de correspondance du Code Atbash ci-dessous pour décrypter le message.
-2. Une fois le nom du coupable découvert, exportez-le comme variable d'environnement `COUPABLE`
-
-> Conseils : Faites attention aux majuscules et minuscules ; le code est sensible à la casse. Si vous rencontrez des difficultés, revérifiez le tableau de correspondance. Assurez-vous que la variable COUPABLE est correctement définie avant d'exécuter le script de vérification.
-
-
 ### Le Code Atbash
 
 Le Code Atbash est un chiffrement par substitution où chaque lettre de l'alphabet est remplacée par sa lettre miroir. Cela signifie que :
@@ -95,7 +87,6 @@ Le Code Atbash est un chiffrement par substitution où chaque lettre de l'alphab
 - **...**
 - **Z** est remplacé par **A**
 
-#### Tableau de Correspondance
 
 | Lettre Codée | A | B | C | D | E | F | G | H | I | J | K | L | M |
 |--------------|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -105,8 +96,20 @@ Le Code Atbash est un chiffrement par substitution où chaque lettre de l'alphab
 |--------------|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Lettre Claire| M | L | K | J | I | H | G | F | E | D | C | B | A |
 
+
+
+### Action à Réaliser
+
+1. Utilisez le tableau de correspondance du Code Atbash ci-dessous pour décrypter le message.
+2. Une fois le nom du coupable découvert, exportez-le comme variable d'environnement `COUPABLE`
+
+> Conseils : Faites attention aux majuscules et minuscules ; le code est sensible à la casse. Si vous rencontrez des difficultés, revérifiez le tableau de correspondance. Assurez-vous que la variable COUPABLE est correctement définie avant d'exécuter le script de vérification.
+
+
+
+
 <br>
 
 # Remerciements
 
-Merci d'avoir participé à cette enquête interactive. Nous espérons que cette expérience a été enrichissante et que vous avez pu perfectionner vos compétences en UNIX tout en vous amusant.
+Merci d'avoir participé à ce mini-jeu. Nous espérons que cette expérience a été enrichissante et que vous avez pu perfectionner vos compétences en UNIX tout en vous amusant.
