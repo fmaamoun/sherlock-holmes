@@ -44,7 +44,7 @@ Sur la scène du crime, une liste d'objets a été retrouvée. Ces indices pourr
 ### Actions à Réaliser
 
 1. Créer un répertoire nommé `analyse_indices` dans le dossier `étape1`.
-2. Extraire les objets contenant le mot "sang" dans un nouveau fichier `indices_relevés.txt` placé dans le répertoire `analyse_indices`.
+2. Extraire les objets contenant le mot "sang" du fichier `data/objets_trouvés.txt` dans un nouveau fichier `analyse_indices/indices_relevés.txt` placé dans le répertoire.
 
 <br>
 

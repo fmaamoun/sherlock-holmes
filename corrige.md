@@ -3,13 +3,13 @@
 ### Objectif 1 : Créer un répertoire `analyse_indices` dans le dossier `étape1`
 
 ```bash
-mkdir étape1/analyse_indices
+mkdir analyse_indices
 ```
 
 ### Objectif 2 : Extraire les objets contenant le mot "sang" dans un nouveau fichier `indices_relevés.txt` dans `analyse_indices`
 
 ```bash
-grep "sang" étape1/data/indices_relevés.txt > étape1/analyse_indices/indices_relevés.txt
+grep "sang" data/objets_trouvés.txt > analyse_indices/indices_relevés.txt
 ```
 
 <br>
@@ -19,7 +19,7 @@ grep "sang" étape1/data/indices_relevés.txt > étape1/analyse_indices/indices_
 ### Objectif 1 : Décompresser l'archive `indices.tar`
 
 ```bash
-cd étape2/data
+cd ./data
 tar -xf indices.tar
 ```
 
