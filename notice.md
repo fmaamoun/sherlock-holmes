@@ -44,7 +44,7 @@ Sur la scène du crime, vous avez trouvé une liste d'objets présents. Ces indi
 
 1. Créer un répertoire nommé `analyse_indices` dans le dossier `étape1`
 
-2. Extraire les objets contenant le mot "sang" dans un nouveau fichier `objets_trouvés.txt`
+2. Extraire les objets contenant le mot "sang" dans un nouveau fichier `objets_trouvés.txt` dans le dossier `analyse_indices`
 
 
 <br>
@@ -57,25 +57,15 @@ Vous avez découvert qu'une archive secrète pourrait contenir des informations 
 
 ### Objectif
 
-- **Extraire l'archive pour accéder au message secret.**
+- Extraire l'archive pour accéder au message secret.
 
 ### Action à Réaliser
 
-1. **Décompresser l'archive `indices.tar`**
+1. Décompresser l'archive `indices.tar`
 
-   - Utilisez la commande `tar` pour extraire l'archive dans **`étape2/`** :
+2. Après l'extraction, accèder au contenu `message_secret.txt`
 
-     ```bash
-     tar -xvf data/indices.tar -C .
-     ```
-
-### Conseils
-
-- Après l'extraction, utilisez `ls` pour vérifier les nouveaux fichiers.
-- Utilisez `find` pour localiser rapidement des fichiers spécifiques, comme le message secret.
-- Assurez-vous que le fichier **`message_secret.txt`** est présent après l'extraction.
-
----
+<br>
 
 ## Étape 3 : Le Message Codé
 
@@ -85,19 +75,15 @@ Parmi les fichiers extraits, vous trouvez un message codé. Ce message contient 
 
 ### Objectif
 
-- **Décoder le message secret pour découvrir le nom du coupable.**
+- Décoder le message secret pour découvrir le nom du coupable.
 
 ### Action à Réaliser
 
-1. **Décoder le message en utilisant le Code Atbash**
+1. Utilisez le tableau de correspondance du Code Atbash ci-dessous pour décrypter le message.
+2. Une fois le nom du coupable découvert, exportez-le comme variable d'environnement `COUPABLE`
 
-   - Le message codé se trouve dans **`data/message_secret.txt`**.
-   - Utilisez le tableau de correspondance du Code Atbash ci-dessous pour décrypter le message.
-   - Une fois le nom du coupable découvert, exportez-le comme variable d'environnement `COUPABLE` :
+> Conseils : Faites attention aux majuscules et minuscules ; le code est sensible à la casse. Si vous rencontrez des difficultés, revérifiez le tableau de correspondance. Assurez-vous que la variable COUPABLE est correctement définie avant d'exécuter le script de vérification.
 
-     ```bash
-     export COUPABLE="Nom du coupable"
-     ```
 
 ### Le Code Atbash
 
@@ -119,19 +105,8 @@ Le Code Atbash est un chiffrement par substitution où chaque lettre de l'alphab
 |--------------|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Lettre Claire| M | L | K | J | I | H | G | F | E | D | C | B | A |
 
-### Exemple de Décodage
+<br>
 
-Si le message codé est **"ZOO"**, vous décoderez chaque lettre :
+# Remerciements
 
-- **Z** → **A**
-- **O** → **L**
-- **O** → **L**
-
-Le message décodé est **"ALL"**.
-
-### Étapes pour Décoder le Message
-
-1. **Afficher le contenu du message codé**
-
-   ```bash
-   cat data/message_secret.txt
+Merci d'avoir participé à cette enquête interactive. Nous espérons que cette expérience a été enrichissante et que vous avez pu perfectionner vos compétences en UNIX tout en vous amusant.
