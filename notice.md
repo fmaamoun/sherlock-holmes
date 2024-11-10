@@ -26,7 +26,7 @@ Bonne chance, détective !
   - **`verif.sh`** : Après avoir terminé les actions requises, utilisez ce script pour valider vos résultats.
 - Les fichiers nécessaires sont situés dans le répertoire **`data/`** de chaque étape.
 - Les commandes UNIX utiles pour cette enquête incluent : `ls`, `cat`, `grep`, `>`, `mkdir`, `tar`, `cd`, `export`
-- Vous réinitialiser une étape en utilisant de nouveau le script **`start.sh`**
+- Vous pouvezvréinitialiser une étape en utilisant de nouveau le script **`start.sh`**
 
 <br>
 
