@@ -6,10 +6,10 @@
 mkdir étape1/analyse_indices
 ```
 
-### Objectif 2 : Extraire les objets contenant le mot "sang" dans un nouveau fichier `objets_trouvés.txt` dans `analyse_indices`
+### Objectif 2 : Extraire les objets contenant le mot "sang" dans un nouveau fichier `indices_relevés.txt` dans `analyse_indices`
 
 ```bash
-grep "sang" étape1/data/objets_trouvés.txt > étape1/analyse_indices/objets_trouvés.txt
+grep "sang" étape1/data/indices_relevés.txt > étape1/analyse_indices/indices_relevés.txt
 ```
 
 <br>
