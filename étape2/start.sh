@@ -2,10 +2,8 @@
 
 echo "Préparation de l'étape 2..."
 
-# Vérifier si le répertoire data existe et le supprimer s'il est présent
-if [ -d "data" ]; then
-    rm -rf data
-fi
+# Supprimer tous les fichiers et dossiers sauf "verif.sh" et "start.sh"
+find . -maxdepth 1 ! -name 'verif.sh' ! -name 'start.sh' ! -name '.' -exec rm -rf {} +
 
 # Création du répertoire data
 mkdir data
