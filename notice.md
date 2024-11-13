@@ -6,11 +6,11 @@
 
 Bienvenue, détective !
 
-Un manuscrit rare et précieux a été dérobé au musée national, et son conservateur, le Dr. Edward Blake, a été retrouvé assassiné dans son bureau. Trois suspects sont actuellement sous l'œil vigilant de Scotland Yard :
+Un manuscrit rare et précieux a été dérobé au musée national, et son conservateur, le Dr Edward Blake, a été retrouvé assassiné dans son bureau. Trois suspects sont actuellement sous l'œil vigilant de Scotland Yard :
 
-- **Madame Violet Westbury** : une historienne autrefois en conflit avec le Dr. Blake.
+- **Madame Violet Westbury** : une historienne autrefois en conflit avec le Dr Blake.
 - **Monsieur Sebastian Moran** : un collectionneur aux pratiques douteuses, souvent sur le fil du rasoir de la légalité.
-- **Docteur Arthur Conan** : un collègue animé par la jalousie face au succès du Dr. Blake.
+- **Docteur Arthur Conan** : un collègue animé par la jalousie face au succès du Dr Blake.
 
 Votre mission est de démasquer le coupable en rassemblant et en analysant les indices disséminés au fil des étapes de cette enquête. Vous devrez utiliser votre sens de l'observation, votre esprit analytique et vos compétences en commandes UNIX pour résoudre cette affaire complexe.
 
@@ -26,7 +26,7 @@ Bonne chance, détective !
   - **`verif.sh`** : Après avoir terminé les actions requises, utilisez ce script pour valider vos résultats.
 - Les fichiers nécessaires sont situés dans le répertoire **`data/`** de chaque étape.
 - Les commandes UNIX utiles pour cette enquête incluent : `ls`, `cat`, `grep`, `>`, `mkdir`, `tar`, `cd`, `export`
-- Vous pouvezvréinitialiser une étape en utilisant de nouveau le script **`start.sh`**
+- Vous pouvez réinitialiser une étape en utilisant de nouveau le script **`start.sh`**
 
 <br>
 
@@ -34,7 +34,7 @@ Bonne chance, détective !
 
 ### Contexte
 
-Sur la scène du crime, une liste d'objets a été retrouvée. Ces indices pourraient vous guider dans votre enquête en vous offrant de précieuses informations.
+Sur la scène du crime, une liste d'objets a été retrouvée. Ces indices pourraient vous guider dans votre enquête en vous fournissant de précieuses informations.
 
 ### Objectifs
 
@@ -52,7 +52,7 @@ Sur la scène du crime, une liste d'objets a été retrouvée. Ces indices pourr
 
 ### Contexte
 
-Des indices recueillis pointent vers une archive secrète. Cette archive pourrait détenir des informations capitales pour la suite de votre enquête.
+Des indices recueillis pointent vers une archive secrète. Cette archive pourrait contenir des informations capitales pour la suite de votre enquête.
 
 ### Objectifs
 
